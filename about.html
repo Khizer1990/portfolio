@@ -5,61 +5,74 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="" />
+		<script src="https://cdn.tailwindcss.com"></script>
 		<meta name="keywords" content="" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/redesigned.css />
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	</head>
-	<body class="is-preload">
+	<body class="is-preload bg-neutral-400">
 
 		<!-- Header -->
-			<header id="header">
-				<a class="logo" href="index.html">Ryan LeBon</a>
-				<nav>
-					<a href="#menu">Menu</a>
-				</nav>
-			</header>
-
-		<!-- Nav -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="index.html">Home</a></li>
+		<header id="" class="bg-neutral-800 text-white p-6 fixed top-0 w-full z-10">
+			<div class="container mx-auto md:flex justify-between">
+				<div class="mb-3 md:mb-0 flex justify-center md:justify-start">
+					<a class="text-3xl" href="index.html">Ryan LeBon</a>
+				</div>
+				<nav id="" class="flex md:space-x-6 justify-center">
+					<div class="px-5 hover:translate-y-1 transition-all hover:text-red-600"><a href="index.html">Home</a>
+					</div>
 					<!-- <li><a href="elements.html">Elements</a></li> -->
-					<li><a href="about.html">About Me</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="https://www.linkedin.com/in/ryan-le-bon/"><i class="icon fa-linkedin">&nbsp;</i>LinkedIn</a></li>
+					<div class="px-5 hover:translate-y-1 transition-all hover:text-red-600"><a href="about.html">About
+							Me</a></div>
+					<!-- <li><a href="services.html">Services</a></li> -->
+					<!-- <li><a href="guides.html">Free Guides</a></li> -->
+					<div class="px-5 hover:translate-y-1 transition-all hover:text-red-600"><a
+							href="https://www.linkedin.com/in/ryan-le-bon/"><i
+								class="icon fa-linkedin text-white">&nbsp;</i>LinkedIn</a></div>
 					<!-- <li><a href="https://github.com/ryanlb777"><i class="icon fa-github">&nbsp;</i>Github</a></li> -->
-					<li>
-						<a href="items/ryan_lebon_resume.pdf" class="button icon fa-download" download> Resume</a>
-					</li>
-				</ul>
-			</nav>
-
+					<!-- <li class="dropdown-btn">Products
+								<i class="fa fa-caret-down"></i>
+							  <li class="dropdown-container">
+								<a href="ads.html">The Automatic Delivery System</a>
+							  </li>
+							</li> -->
+					<div class="px-5 hover:translate-y-1 transition-all hover:text-red-600">
+						<!-- <a href="items/ryan_lebon_resume.pdf" class="button icon fa-download" download> Resume</a> -->
+					</div>
+				</nav>
+			</div>
+		</header>
+		<div class="fixed justify-center mb-5 bottom-5 right-5 z-10">
+			<a href="items/ryan_lebon_resume.pdf" class="transition-all rounded-sm hover:text-red-900 hover:bg-white text-white bg-red-900 px-8 py-4" download> <i class="fa-solid fa-download pr-2"></i>Download Resume</a>
+		</div>
 		<!-- Heading -->
-			<div id="heading" >
-				<h1>About Me</h1>
+			<div id="heading" class="mt-8 pt-9 absolute">
+				<h1 class="text-black text-3xl md:text-4xl lg:text-5xl absolute font-bold">About Me</h1>
 			</div>
 		<!-- Main -->
-		<section id="main" class="wrapper">
-			<div class="inner">
-				<div class="content">
-					<header>
-						<h2>About Me</h2>
+		<section id="" class="container mx-auto bg-white px-8 py-4 rounded md:mt-40">
+			<div class="">
+				<div class="">
+					<header class="flex flex-col space-y-14">
+						<h2 class="text-black text-3xl md:text-4xl lg:text-5xl absolute">About Me</h2>
+						<p class="mr-5">Hello, thank you for visiting my personal website. I am a DevOps Engineer with a emphasis on operational tasks, while also collaborating with development teams in order to produce software products
+							through a more efficient software development life cycle using CI/CD platforms. I hold a Bachelors degree in computer science software engineering from CSUMB (California State University of Monterey Bay), 
+							with strong interests in DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics. I have strong skills in several computer operating systems such as Mac, Windows, and Linux.
+							I am an active learner with a growth mindset. With this mindset I am able to adjust to different environments and take on new challenges that I have never seen before. The technologies that I use on a daily basis
+							consists of Docker, Jenkins, Kubernetes, Ansible, Helm, CI/CD Pipelines, SonarQube, Nagios, Configuration Management, Server Operations and Web Development/Deployment. I keep my skills fresh and program with several different types
+							of languages such as Python, C++, C#, Javascript, and Groovy. I am also interested in creating and improving full stack architectures while also making my projects secure and scalable with automation and machine learning.
+							Please feel free to reach out to me if you are interested in what I do and have a position available.</p>
 					</header>
-					<p> Hello, thank you for visiting my personal website. I am a DevOps Engineer with a emphasis on operational tasks, while also collaborating with development teams in order to produce software products
-						through a more efficient software development life cycle using CI/CD platforms. I hold a Bachelors degree in computer science software engineering from CSUMB (California State University of Monterey Bay), 
-						with strong interests in DevOps Engineering, Software Engineering, Full Stack Design/Development, Automation Engineering, and Data Analytics. I have strong skills in several computer operating systems such as Mac, Windows, and Linux.
-						I am an active learner with a growth mindset. With this mindset I am able to adjust to different environments and take on new challenges that I have never seen before. The technologies that I use on a daily basis
-						consists of Docker, Jenkins, Kubernetes, Ansible, Helm, CI/CD Pipelines, SonarQube, Nagios, Configuration Management, Server Operations and Web Development/Deployment. I keep my skills fresh and program with several different types
-						of languages such as Python, C++, C#, Javascript, and Groovy. I am also interested in creating and improving full stack architectures while also making my projects secure and scalable with automation and machine learning.
-						Please feel free to reach out to me if you are interested in what I do and have a position available.
-					</p>
 				</div>
 			</div>
 		</section>
-		<section id="main" class="wrapper">
+		<section id="" class="container mx-auto bg-white px-8 py-4 rounded md:mt-40 md:mb-10">
 			<div class="inner">
-				<div class="content">
+				<div class="space-y-5">
 					<header>
-						<h2>Why do you need me on your team?</h2>
+						<h2 class="font-bold text-xl">Why do you need me on your team?</h2>
 					</header>
 					<img id="ci-cd" src="images/collaboration.png" alt="" />
 					<p>
@@ -93,7 +106,7 @@
 		</div> -->
 		<!-- Footer -->
 			<footer id="footer">
-				<div class="inner">
+				<div class="inner p-30">
 					<div class="content">
 						
 					</div>
