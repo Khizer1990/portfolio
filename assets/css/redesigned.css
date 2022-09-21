@@ -2,6 +2,7 @@
 
 html{
     scroll-behavior: smooth;
+    /* overflow-y: hidden; */
 }
 body{
     font-family: Poppins, sans-serif;
@@ -24,3 +25,11 @@ body{
     color: white;
 }
 
+.footer-new{
+    border-top:  2px solid white;
+    z-index: 10;
+}
+
+.border-top{
+    border-top: #fff 2px solid;
+}
