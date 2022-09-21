@@ -6,6 +6,8 @@
   width: device-width; }
 body {
   -ms-overflow-style: scrollbar;
+  margin: 0;
+  padding: 0;
  }
 
 @media screen and (max-width: 480px) {
@@ -149,7 +151,7 @@ body, input, select, textarea {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.65; }
-
+/* 
 a {
   -moz-transition: color 0.2s ease-in-out;
   -webkit-transition: color 0.2s ease-in-out;
@@ -157,7 +159,7 @@ a {
   transition: color 0.2s ease-in-out;
   text-decoration: underline; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none; } */
 
 strong, b {
   font-weight: 600; }
@@ -181,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0 0 1.5rem 0; }
-  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  h1 , h2 , h3 , h4 , h5 , h6 {
     color: inherit;
     text-decoration: none; }
 
@@ -261,8 +263,8 @@ hr {
 input, select, textarea {
   color: #555555; }
 
-a {
-  color: #ce1b28; }
+/* a {
+  color: #ce1b28; } */
 
 strong, b {
   color: #555555; }
@@ -1865,8 +1867,8 @@ ul.icons {
   width: 100%; }
   #banner input, #banner select, #banner textarea {
     color: #ffffff; }
-  #banner a {
-    color: #ce1b28; }
+  /* #banner a {
+    color: #ce1b28; } */
   #banner strong, #banner b {
     color: #ffffff; }
   #banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -2003,7 +2005,7 @@ ul.icons {
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     opacity: 1;
-    position: relative;
+    /* position: relative; */
     z-index: 3; }
     #banner > .inner > :last-child {
       margin-bottom: 0; }
@@ -2012,11 +2014,11 @@ ul.icons {
     margin-bottom: 1rem; }
   #banner p {
     font-size: 1.5rem; }
-  #banner a {
+  /* #banner a {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
-    #banner a:hover {
-      color: #ffffff; }
+    #banner a:hover { */
+      /* color: #ffffff; } */
   #banner video {
     -moz-transform: translateX(50%) translateY(50%);
     -webkit-transform: translateX(50%) translateY(50%);
@@ -2580,7 +2582,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    /* background-image: url(../../images/bg.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -2674,7 +2676,6 @@ body {
   -ms-flex-align: center;
   -ms-flex-pack: center;
   background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
